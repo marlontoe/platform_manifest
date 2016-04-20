@@ -66,4 +66,9 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_moto_shamu"
     ;;
+    z3c)
+        export remote="github"
+        export remoterevision="cm-13.0"
+        export kernelsource="CyanogenMod/android_kernel_sony_msm"
+    ;;
 esac
